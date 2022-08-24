@@ -1,7 +1,10 @@
+import './Navbar.css';
+import { Search } from '../Search/Search';
+
 export function Navbar() { 
   return (
-    <nav>
-      Nav
+    <nav className="navbar">
+      <Search />
     </nav>
   )
 }
