@@ -7,8 +7,11 @@ export function Navbar() {
     <nav className="navbar">
       <Search />
       <button className='cart-icon'>
-        <img src={ basketLogo } className="basket" alt="Basket Logo" />
-        </button>
+        <img src={basketLogo} className="basket" alt="Basket Logo" />
+        <span className="number-circle">
+          10
+        </span>
+      </button>
     </nav>
   )
 }
