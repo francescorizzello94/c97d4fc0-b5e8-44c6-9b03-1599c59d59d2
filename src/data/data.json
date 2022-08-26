@@ -65,7 +65,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -120,7 +120,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -154,7 +154,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -177,7 +177,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -232,7 +232,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -255,7 +255,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -278,7 +278,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -301,7 +301,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -324,7 +324,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -347,7 +347,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -524,7 +524,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -589,7 +589,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -682,7 +682,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -719,7 +719,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -896,7 +896,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -926,7 +926,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -991,7 +991,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1049,7 +1049,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1097,7 +1097,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1134,7 +1134,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1472,7 +1472,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1494,7 +1494,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1516,7 +1516,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1546,7 +1546,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1583,7 +1583,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1620,7 +1620,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1650,7 +1650,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1672,7 +1672,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1702,7 +1702,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1732,7 +1732,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1769,7 +1769,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1799,7 +1799,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1843,7 +1843,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1880,7 +1880,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1917,7 +1917,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1947,7 +1947,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -1984,7 +1984,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2028,7 +2028,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2121,7 +2121,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2158,7 +2158,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2188,7 +2188,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2260,7 +2260,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2311,7 +2311,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2362,7 +2362,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2392,7 +2392,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2429,7 +2429,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2484,7 +2484,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2528,7 +2528,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2579,7 +2579,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2623,7 +2623,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2645,7 +2645,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2689,7 +2689,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2719,7 +2719,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2777,7 +2777,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2849,7 +2849,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2871,7 +2871,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2915,7 +2915,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -2970,7 +2970,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3000,7 +3000,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3030,7 +3030,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3060,7 +3060,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3153,7 +3153,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3204,7 +3204,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3248,7 +3248,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3292,7 +3292,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3314,7 +3314,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3336,7 +3336,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3373,7 +3373,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3403,7 +3403,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3425,7 +3425,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3447,7 +3447,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3477,7 +3477,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3507,7 +3507,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3529,7 +3529,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3551,7 +3551,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3595,7 +3595,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3617,7 +3617,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3668,7 +3668,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3698,7 +3698,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3728,7 +3728,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3750,7 +3750,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3772,7 +3772,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3802,7 +3802,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3824,7 +3824,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3861,7 +3861,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3883,7 +3883,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3905,7 +3905,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -3942,7 +3942,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4035,7 +4035,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4065,7 +4065,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4102,7 +4102,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4146,7 +4146,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4176,7 +4176,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4213,7 +4213,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4235,7 +4235,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4272,7 +4272,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4330,7 +4330,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4413,7 +4413,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4450,7 +4450,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4472,7 +4472,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4509,7 +4509,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4531,7 +4531,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4568,7 +4568,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4590,7 +4590,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4620,7 +4620,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4642,7 +4642,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4735,7 +4735,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4786,7 +4786,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4837,7 +4837,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4867,7 +4867,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4897,7 +4897,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4927,7 +4927,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -4971,7 +4971,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5001,7 +5001,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5031,7 +5031,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5061,7 +5061,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5105,7 +5105,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5135,7 +5135,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5157,7 +5157,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5179,7 +5179,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5201,7 +5201,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5223,7 +5223,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5253,7 +5253,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5275,7 +5275,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5297,7 +5297,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5327,7 +5327,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5357,7 +5357,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5379,7 +5379,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5401,7 +5401,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5423,7 +5423,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5445,7 +5445,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5475,7 +5475,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5505,7 +5505,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5535,7 +5535,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5565,7 +5565,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5602,7 +5602,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5624,7 +5624,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5646,7 +5646,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5676,7 +5676,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5698,7 +5698,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5720,7 +5720,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5750,7 +5750,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5772,7 +5772,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5802,7 +5802,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5832,7 +5832,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5862,7 +5862,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5892,7 +5892,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5943,7 +5943,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -5980,7 +5980,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6031,7 +6031,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6068,7 +6068,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6105,7 +6105,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6156,7 +6156,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6178,7 +6178,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6222,7 +6222,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6244,7 +6244,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6281,7 +6281,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6303,7 +6303,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6333,7 +6333,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6355,7 +6355,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6377,7 +6377,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6407,7 +6407,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6429,7 +6429,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6451,7 +6451,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6495,7 +6495,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6517,7 +6517,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6568,7 +6568,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6590,7 +6590,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6612,7 +6612,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6634,7 +6634,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6656,7 +6656,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6678,7 +6678,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6708,7 +6708,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6738,7 +6738,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6760,7 +6760,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6782,7 +6782,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6804,7 +6804,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6826,7 +6826,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6856,7 +6856,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6878,7 +6878,7 @@
     "artists": [],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   },
   {
@@ -6908,7 +6908,7 @@
     ],
     "city": "london",
     "country": "uk",
-    "private": false,
+    "privateParty": false,
     "__v": 0
   }
 ]
