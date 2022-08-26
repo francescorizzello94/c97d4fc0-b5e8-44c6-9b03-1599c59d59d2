@@ -38,6 +38,7 @@ export interface Id {
   $oid: string;
 }
 
+
 export function EventData(
   {
     _id,
@@ -60,19 +61,23 @@ export function EventData(
 ) {
   return (
     <div>
-      <Card>
+      <Card className='card-element'>
         <Card.Body>
           <Card.Img
             style={{ width: "17rem" }}
             variant="top"
             src={flyerFront}
           />
-          <Card.Text>
-            Some text
+          <Card.Text style={{ color: "orange" }}>
+            {title} <br />
+            {venue.name}, {city.charAt(0).toUpperCase() + city.slice(1).toLowerCase()} <br />
+            {date} <br />
+            {startTime} <br />
+            {endTime}<br />
           </Card.Text>
           <Card.Link href={venue.direction}>
             Google Maps Link
-            </Card.Link>
+          </Card.Link>
         </Card.Body>
       </Card>
     </div>
