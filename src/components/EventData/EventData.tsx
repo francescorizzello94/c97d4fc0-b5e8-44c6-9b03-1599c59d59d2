@@ -70,7 +70,9 @@ export function EventData(
           <Card.Text>
             Some text
           </Card.Text>
-          <Card.Link href={venue.direction} />
+          <Card.Link href={venue.direction}>
+            Google Maps Link
+            </Card.Link>
         </Card.Body>
       </Card>
     </div>
