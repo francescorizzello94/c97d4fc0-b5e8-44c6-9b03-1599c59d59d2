@@ -1,4 +1,5 @@
 import './EventData.css';
+import { Card } from 'react-bootstrap';
 
 export interface JSONType {
   _id: string;
@@ -37,8 +38,6 @@ export interface Id {
   $oid: string;
 }
 
-
-
 export function EventData(
   {
     _id,
@@ -57,10 +56,23 @@ export function EventData(
     privateParty,
     __v,
   }
-    :JSONType
- ) {
+    : JSONType
+) {
   return (
-    <>
-    </>
+    <div>
+      <Card>
+        <Card.Body>
+          <Card.Img
+            style={{ width: "17rem" }}
+            variant="top"
+            src={flyerFront}
+          />
+          <Card.Text>
+            Some text
+          </Card.Text>
+          <Card.Link href={venue.direction} />
+        </Card.Body>
+      </Card>
+    </div>
   )
 }
