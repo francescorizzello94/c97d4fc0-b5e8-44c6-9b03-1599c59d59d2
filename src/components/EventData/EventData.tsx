@@ -1,6 +1,7 @@
 import './EventData.css';
 import { Card } from 'react-bootstrap';
 import moment from 'moment';
+import { GeneralDateFormatter, TimeFormatter } from '../../utilities/DateFormatter';
 
 export interface JSONType {
   _id: string;
@@ -63,10 +64,11 @@ export function EventData(
   return (
     <>
       <Card className='card-element'>
-          <Card.Img
-            style={{ width: "17rem" }}
-            variant="top"
-            src={flyerFront}
+        <Card.Img
+          style={{ width: "17rem" }}
+          variant="top"
+          src={flyerFront}
+          alt="flyer image"
         />
         <Card.Body>
           <Card.Text className="card-text">
@@ -74,16 +76,16 @@ export function EventData(
               <span className="card-title">{title}</span>
             </Card.Title>
             {venue.name}, {city.charAt(0).toUpperCase() + city.slice(1).toLowerCase()} <br /><br />
-            Save the Date: <Card.Text style={{ color: "orange" }}> {Array.from(moment(date).format('MMMM Do YYYY'))} </Card.Text><br />
-            From:<br /> {Array.from(moment(startTime).format('MMMM Do YYYY, h:mm a'))} <br />
-            To: <br /> {Array.from(moment(endTime).format('MMMM Do YYYY, h:mm a'))}<br />
-            Attending: <br /> { attending}
+            Save the Date: <Card.Text style={{ color: "orange" }}> {GeneralDateFormatter(date)} </Card.Text><br />
+            From:<br /> {TimeFormatter(startTime)} <br />
+            To: <br /> {TimeFormatter(endTime)}<br />
+            Attending: <br /> {attending}
           </Card.Text>
-          <Card.Link href={venue.direction}>
-            Google Maps Link
+          <Card.Link className="card-link" href={venue.direction}>
+            Maps
           </Card.Link>
         </Card.Body>
-          
+
       </Card>
     </>
   )

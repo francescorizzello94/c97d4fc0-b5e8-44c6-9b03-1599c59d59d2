@@ -1,3 +1,7 @@
+:root {
+  --left-margin: 0.7rem;
+}
+
 .card-element {
   display: flex;
 }
@@ -10,5 +14,10 @@
 
 .card-text {
   color: aliceblue;
-  margin-left: 0.7rem;
+  margin-left: var(--left-margin);
+}
+
+.card-link {
+  color: rgb(204, 19, 211);
+  margin-left: var(--left-margin);
 }
