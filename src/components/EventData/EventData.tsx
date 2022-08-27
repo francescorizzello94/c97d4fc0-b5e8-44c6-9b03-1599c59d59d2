@@ -67,7 +67,7 @@ export function EventData(
     <>
       <Card className='card-element'>
         <Card.Img
-          style={{ width: "17rem" }}
+          style={{ width: "22rem" }}
           variant="top"
           src={flyerFront}
           alt="flyer image"
