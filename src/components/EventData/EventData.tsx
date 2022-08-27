@@ -1,5 +1,6 @@
 import './EventData.css';
 import { Card } from 'react-bootstrap';
+import moment from 'moment';
 
 export interface JSONType {
   _id: string;
@@ -60,7 +61,7 @@ export function EventData(
     : JSONType
 ) {
   return (
-    <div>
+    <>
       <Card className='card-element'>
         <Card.Body>
           <Card.Img
@@ -68,18 +69,18 @@ export function EventData(
             variant="top"
             src={flyerFront}
           />
-          <Card.Text style={{ color: "orange" }}>
+          <Card.Text className="card-text">
             {title} <br />
-            {venue.name}, {city.charAt(0).toUpperCase() + city.slice(1).toLowerCase()} <br />
-            {date} <br />
-            {startTime} <br />
-            {endTime}<br />
+            {venue.name}, {city.charAt(0).toUpperCase() + city.slice(1).toLowerCase()} <br /><br />
+            Save the Date: <Card.Text style={{ color: "orange" }}> {Array.from(moment(date).format('MMMM Do YYYY'))} </Card.Text><br />
+            From: {Array.from(moment(startTime).format('MMMM Do YYYY, h:mm a'))} <br />
+            To: {Array.from(moment(endTime).format('MMMM Do YYYY, h:mm a'))}<br />
           </Card.Text>
           <Card.Link href={venue.direction}>
             Google Maps Link
           </Card.Link>
         </Card.Body>
       </Card>
-    </div>
+    </>
   )
 }
