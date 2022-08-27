@@ -1,4 +1,5 @@
 import './EventData.css';
+import { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { GeneralDateFormatter, TimeFormatter } from '../../utilities/DateFormatter';
@@ -61,7 +62,7 @@ export function EventData(
   }
     : JSONType
 ) {
-  const added = false;
+  const [flag, setFlag] = useState(false);
   return (
     <>
       <Card className='card-element'>
@@ -82,11 +83,11 @@ export function EventData(
             To: <br /> {TimeFormatter(endTime)}<br />
             Attending: <br /> {attending}
           </Card.Text>
-          <Card.Link className="card-link" href={venue.direction}>
+          <Card.Link className="card-link" href={venue.direction} target="_blank">
             Maps
           </Card.Link><br />
           <div className="conditional-button">
-            {added === false
+            {flag === false
               ?
               (<Button className="card-button" variant="primary">
                 Add to List

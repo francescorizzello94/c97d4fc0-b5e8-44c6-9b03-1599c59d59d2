@@ -3,7 +3,6 @@ import eventData from '../../data/data.json';
 import { EventData } from '../../components/EventData/EventData';
 
 export function Home() {
-
   return (
     <>
       <h1>Events in the City</h1>
