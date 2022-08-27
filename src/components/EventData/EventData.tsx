@@ -67,17 +67,23 @@ export function EventData(
             style={{ width: "17rem" }}
             variant="top"
             src={flyerFront}
-          />
+        />
+        <Card.Body>
           <Card.Text className="card-text">
-            {title} <br />
+            <Card.Title>
+              <span className="card-title">{title}</span>
+            </Card.Title>
             {venue.name}, {city.charAt(0).toUpperCase() + city.slice(1).toLowerCase()} <br /><br />
             Save the Date: <Card.Text style={{ color: "orange" }}> {Array.from(moment(date).format('MMMM Do YYYY'))} </Card.Text><br />
-            From: {Array.from(moment(startTime).format('MMMM Do YYYY, h:mm a'))} <br />
-            To: {Array.from(moment(endTime).format('MMMM Do YYYY, h:mm a'))}<br />
+            From:<br /> {Array.from(moment(startTime).format('MMMM Do YYYY, h:mm a'))} <br />
+            To: <br /> {Array.from(moment(endTime).format('MMMM Do YYYY, h:mm a'))}<br />
+            Attending: <br /> { attending}
           </Card.Text>
           <Card.Link href={venue.direction}>
             Google Maps Link
           </Card.Link>
+        </Card.Body>
+          
       </Card>
     </>
   )

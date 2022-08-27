@@ -1,5 +1,5 @@
 body {
-  background: blue;
+  background: black;
 }
 
 main {
@@ -8,10 +8,12 @@ main {
 }
 
 h1 {
-  color: lightsalmon;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-weight: 400;
+  color: rgb(247, 140, 0);
+  font-family: monospace;
+  font-size: xx-large;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  text-align: center;
 }
 
 .events {

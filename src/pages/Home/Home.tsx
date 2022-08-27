@@ -6,7 +6,7 @@ export function Home() {
 
   return (
     <>
-      <h1>Public Events</h1>
+      <h1>Events in the City</h1>
       <main>
         <section className="events">
           {eventData.map(item => (
