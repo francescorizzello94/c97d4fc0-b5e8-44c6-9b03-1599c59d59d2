@@ -9,7 +9,7 @@ export function Navbar() {
       <button className='cart-icon'>
         <img src={basketLogo} className="basket" alt="Basket Logo" />
         <span className="number-circle">
-          10
+          0
         </span>
       </button>
     </nav>

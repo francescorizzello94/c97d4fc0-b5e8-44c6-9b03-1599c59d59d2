@@ -1,8 +1,8 @@
 import './EventData.css';
 import { useState } from 'react';
 import { Card } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
 import { GeneralDateFormatter, TimeFormatter } from '../../utilities/DateFormatter';
+import { TitleCaser } from '../../utilities/TitleCaser';
 
 export interface JSONType {
   _id: string;
@@ -63,6 +63,7 @@ export function EventData(
     : JSONType
 ) {
   const [flag, setFlag] = useState(false);
+  const addToList = () => setFlag(true);
   return (
     <>
       <Card className='card-element'>
@@ -77,7 +78,7 @@ export function EventData(
             <Card.Title>
               <span className="card-title">{title}</span>
             </Card.Title>
-            {venue.name}, {city.charAt(0).toUpperCase() + city.slice(1).toLowerCase()} <br /><br />
+            {venue.name}, {TitleCaser(city)} <br /><br />
             Save the Date: <Card.Text style={{ color: "orange" }}> {GeneralDateFormatter(date)} </Card.Text><br />
             From:<br /> {TimeFormatter(startTime)} <br />
             To: <br /> {TimeFormatter(endTime)}<br />
@@ -89,9 +90,11 @@ export function EventData(
           <div className="conditional-button">
             {flag === false
               ?
-              (<Button className="card-button" variant="primary">
+              (<button onClick={addToList}
+                className="card-button"
+              >
                 Add to List
-              </Button>)
+              </button>)
               :
             null
             }
