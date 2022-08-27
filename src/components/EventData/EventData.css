@@ -21,3 +21,7 @@
   color: rgb(204, 19, 211);
   margin-left: var(--left-margin);
 }
+
+.card-button {
+  margin-left: var(--left-margin);
+}

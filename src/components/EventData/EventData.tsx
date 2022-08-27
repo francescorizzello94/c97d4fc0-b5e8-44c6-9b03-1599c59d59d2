@@ -1,6 +1,6 @@
 import './EventData.css';
 import { Card } from 'react-bootstrap';
-import moment from 'moment';
+import { Button } from 'react-bootstrap';
 import { GeneralDateFormatter, TimeFormatter } from '../../utilities/DateFormatter';
 
 export interface JSONType {
@@ -61,6 +61,7 @@ export function EventData(
   }
     : JSONType
 ) {
+  const added = false;
   return (
     <>
       <Card className='card-element'>
@@ -83,7 +84,17 @@ export function EventData(
           </Card.Text>
           <Card.Link className="card-link" href={venue.direction}>
             Maps
-          </Card.Link>
+          </Card.Link><br />
+          <div className="conditional-button">
+            {added === false
+              ?
+              (<Button className="card-button" variant="primary">
+                Add to List
+              </Button>)
+              :
+            null
+            }
+          </div>
         </Card.Body>
 
       </Card>
