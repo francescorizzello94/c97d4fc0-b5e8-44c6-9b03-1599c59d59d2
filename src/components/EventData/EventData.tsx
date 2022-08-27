@@ -63,7 +63,6 @@ export function EventData(
   return (
     <>
       <Card className='card-element'>
-        <Card.Body>
           <Card.Img
             style={{ width: "17rem" }}
             variant="top"
@@ -79,7 +78,6 @@ export function EventData(
           <Card.Link href={venue.direction}>
             Google Maps Link
           </Card.Link>
-        </Card.Body>
       </Card>
     </>
   )
