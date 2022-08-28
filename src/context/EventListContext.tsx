@@ -1,10 +1,14 @@
 import { useContext, createContext, ReactNode, useState } from "react";
 
 type EventListContextType = {
+  openList: () => void;
+  closeList: () => void;
   getEventItemQuantity: (_id: string) => number;
   increaseListQuantity: (_id: string) => void;
   decreaseListQuantity: (_id: string) => void;
   removeFromList: (_id: string) => void;
+  listQuantity: number;
+  listItems: ListItem[];
 }
 
 type EventListProviderProps = {
@@ -16,7 +20,7 @@ type ListItem = {
   quantity: number;
 }
 
-const EventListContext = createContext({});
+const EventListContext = createContext({} as EventListContextType);
 
 export function useEventList() {
   return useContext(EventListContext);
@@ -24,7 +28,14 @@ export function useEventList() {
 
 export function EventProvider(
   { children }: EventListProviderProps) {
+  
   const [listItems, setListItems] = useState<ListItem[]>([]);
+  const [listState, toggleList] = useState(false);
+
+  const listQuantity = listItems.reduce((quantity, item) => item.quantity + quantity, 0);
+
+  const openList = () => toggleList(true);
+  const closeList = () => toggleList(false);
 
   function getEventItemQuantity(_id: string) {
     return listItems.find(item =>item._id === _id)?.quantity || 0;
@@ -71,7 +82,16 @@ export function EventProvider(
   }
 
   return (
-    <EventListContext.Provider value={{getEventItemQuantity, increaseListQuantity, decreaseListQuantity, removeFromList}}>
+    <EventListContext.Provider value={{
+      getEventItemQuantity,
+      increaseListQuantity,
+      decreaseListQuantity,
+      removeFromList,
+      openList,
+      closeList,
+      listItems,
+      listQuantity,
+    }}>
       {children}
     </EventListContext.Provider>
   )
