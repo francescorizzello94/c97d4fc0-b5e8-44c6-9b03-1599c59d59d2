@@ -1,14 +1,10 @@
 import { useContext, createContext, ReactNode, useState } from "react";
 
 type EventListContextType = {
+  getEventItemQuantity: (_id: string) => number;
   increaseListQuantity: (_id: string) => void;
+  decreaseListQuantity: (_id: string) => void;
   removeFromList: (_id: string) => void;
-}
-
-const EventListContext = createContext({});
-
-export function useEventList() { 
-  return useContext(EventListContext);
 }
 
 type EventListProviderProps = {
@@ -16,19 +12,45 @@ type EventListProviderProps = {
 }
 
 type ListItem = {
-  added: boolean;
   _id: string;
   quantity: number;
 }
 
-export function EventProvider({ children }
-  : EventListProviderProps) { 
+const EventListContext = createContext({});
+
+export function useEventList() {
+  return useContext(EventListContext);
+}
+
+export function EventProvider(
+  { children }: EventListProviderProps) {
   const [listItems, setListItems] = useState<ListItem[]>([]);
 
-  
+  function getEventItemQuantity(_id: string) {
+    return listItems.find(item =>item._id === _id)?.quantity || 0;
+  }
+
+  function increaseListQuantity(_id: string) {
+    setListItems(currentCount => { 
+      if (currentCount.find(item => item._id === _id) == null) {
+        return [...currentCount, {
+          _id, quantity: 1
+        }]
+      } else { 
+        return currentCount.map(item => { 
+          if (item._id === _id) {
+            return { ...item, quantity: item.quantity + 1 }
+          } else { 
+            return item;
+          }
+        })
+      }
+    })
+  }
+
   return (
-    <EventListContext.Provider value={{}}>
-    { children }
-  </EventListContext.Provider>
+    <EventListContext.Provider value={{getEventItemQuantity, increaseListQuantity}}>
+      {children}
+    </EventListContext.Provider>
   )
 }

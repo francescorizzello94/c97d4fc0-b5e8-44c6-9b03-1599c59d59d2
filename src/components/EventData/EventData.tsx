@@ -94,7 +94,14 @@ export function EventData(
                 Add to List
               </button>)
               :
-              null
+              <div className="plus-minus-button">
+                <button>+</button>
+                <span className="quantity-update">{ quantity } tickets added to cart</span>
+                <button>-</button>
+                <div className="remove-button-wrapper">
+                  <button className="remove button">Remove</button>
+                </div>
+              </div>
             }
           </div>
         </Card.Body>
