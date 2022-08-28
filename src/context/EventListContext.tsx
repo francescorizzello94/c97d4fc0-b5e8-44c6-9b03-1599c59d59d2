@@ -64,8 +64,14 @@ export function EventProvider(
     })
   }
 
+  function removeFromList(_id: string) { 
+    setListItems(currentCount => { 
+      return currentCount.filter(item => item._id !== _id);
+    })
+  }
+
   return (
-    <EventListContext.Provider value={{getEventItemQuantity, increaseListQuantity, decreaseListQuantity}}>
+    <EventListContext.Provider value={{getEventItemQuantity, increaseListQuantity, decreaseListQuantity, removeFromList}}>
       {children}
     </EventListContext.Provider>
   )
