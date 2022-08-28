@@ -48,8 +48,24 @@ export function EventProvider(
     })
   }
 
+  function decreaseListQuantity(_id: string) { 
+    setListItems(currentCount => {
+      if (currentCount.find(item => item._id === _id)?.quantity === 1) {
+        return currentCount.filter(item => item._id !== _id)
+      } else {
+        return currentCount.map(item => {
+          if (item._id === _id) {
+            return { ...item, quantity: item.quantity - 1 }
+          } else {
+            return item;
+          }
+        })
+      }
+    })
+  }
+
   return (
-    <EventListContext.Provider value={{getEventItemQuantity, increaseListQuantity}}>
+    <EventListContext.Provider value={{getEventItemQuantity, increaseListQuantity, decreaseListQuantity}}>
       {children}
     </EventListContext.Provider>
   )
