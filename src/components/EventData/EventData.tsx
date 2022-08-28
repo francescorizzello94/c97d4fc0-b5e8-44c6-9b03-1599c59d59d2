@@ -2,6 +2,7 @@ import './EventData.css';
 import { Card } from 'react-bootstrap';
 import { GeneralDateFormatter, TimeFormatter } from '../../utilities/DateFormatter';
 import { TitleCaser } from '../../utilities/TitleCaser';
+import { useEventList } from '../../context/EventListContext';
 
 export interface JSONType {
   _id: string;
@@ -61,7 +62,8 @@ export function EventData(
   }
     : JSONType
 ) {
-  const quantity = 0;
+  const { getEventItemQuantity, increaseListQuantity, decreaseListQuantity, removeFromList } : any = useEventList();
+  const quantity = getEventItemQuantity(_id);
   return (
     <>
       <Card className='card-element'>
@@ -90,16 +92,17 @@ export function EventData(
               ?
               (<button
                 className="add-button"
+                onClick={() => increaseListQuantity(_id)}
               >
                 Add to List
               </button>)
               :
               <div className="plus-minus-button">
-                <button>+</button>
+                <button onClick={() => increaseListQuantity(_id)}>+</button>
                 <span className="quantity-update">{ quantity } tickets added to cart</span>
-                <button>-</button>
+                <button onClick={() => decreaseListQuantity(_id)}>-</button>
                 <div className="remove-button-wrapper">
-                  <button className="remove button">Remove</button>
+                  <button className="remove button" onClick={() => removeFromList(_id)}>Remove</button>
                 </div>
               </div>
             }
