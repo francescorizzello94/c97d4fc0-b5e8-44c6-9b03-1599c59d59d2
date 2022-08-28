@@ -1,5 +1,12 @@
 :root {
   --left-margin: 0.7rem;
+  --pointer-cursor: pointer;
+  --Gills-font: 'Gill Sans',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+  --button-font-weight: 600;
 }
 
 .card-element {
@@ -22,6 +29,23 @@
   margin-left: var(--left-margin);
 }
 
-.card-button {
+.maps-button {
+  width: 10rem;
   margin-left: var(--left-margin);
+  font-family: var(--Gills-font);
+  font-weight: var(--button-font-weight);
+  color: rgb(40, 23, 189);
+  background-color: rgb(182, 171, 192);
+  cursor: var(--pointer-cursor);
+}
+
+.add-button {
+  width: 10rem;
+  margin-left: var(--left-margin);
+  border-radius: 1rem;
+  font-family: var(--Gills-font);
+  font-weight: var(--button-font-weight);
+  color: white;
+  background-color: blueviolet;
+  cursor: var(--pointer-cursor);
 }

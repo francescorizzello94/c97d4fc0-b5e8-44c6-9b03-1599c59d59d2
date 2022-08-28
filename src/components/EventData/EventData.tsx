@@ -1,5 +1,4 @@
 import './EventData.css';
-import { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import { GeneralDateFormatter, TimeFormatter } from '../../utilities/DateFormatter';
 import { TitleCaser } from '../../utilities/TitleCaser';
@@ -62,13 +61,12 @@ export function EventData(
   }
     : JSONType
 ) {
-  const [flag, setFlag] = useState(false);
-  const addToList = () => setFlag(true);
+  const quantity = 0;
   return (
     <>
       <Card className='card-element'>
         <Card.Img
-          style={{ width: "22rem" }}
+          style={{ width: "25rem", objectFit: "cover" }}
           variant="top"
           src={flyerFront}
           alt="flyer image"
@@ -78,25 +76,25 @@ export function EventData(
             <Card.Title>
               <span className="card-title">{title}</span>
             </Card.Title>
-            {venue.name}, {TitleCaser(city)} <br /><br />
+            {venue.name} - {TitleCaser(city)} <br /><br />
             Save the Date: <Card.Text style={{ color: "orange" }}> {GeneralDateFormatter(date)} </Card.Text><br />
             From:<br /> {TimeFormatter(startTime)} <br />
             To: <br /> {TimeFormatter(endTime)}<br />
             Attending: <br /> {attending}
           </Card.Text>
           <Card.Link className="card-link" href={venue.direction} target="_blank">
-            Maps
+            <button className="maps-button">Find on Maps</button>
           </Card.Link><br />
-          <div className="conditional-button">
-            {flag === false
+          <div className="add-wrapper">
+            {quantity === 0
               ?
-              (<button onClick={addToList}
-                className="card-button"
+              (<button
+                className="add-button"
               >
                 Add to List
               </button>)
               :
-            null
+              null
             }
           </div>
         </Card.Body>
