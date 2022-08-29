@@ -1,5 +1,7 @@
-import { Offcanvas } from 'react-bootstrap';
+import { Offcanvas, Stack } from 'react-bootstrap';
 import { useState } from 'react';
+import { EventListProviderProps, useEventList } from '../../context/EventListContext';
+import { ListItem } from '../ListItem/ListItem';
 import './OffPageMenu.css';
 
 
@@ -12,8 +14,9 @@ const options = [
 ];
 
 
-function OffPageMenu({ name, ...props }) {
+function OffPageMenu({ name, ...props }: EventListProviderProps) {
   const [show, setShow] = useState(false);
+const {listItems} = useEventList();
 
   const handleClose = () => setShow(false);
   const toggleShow = () => setShow((s) => !s);
@@ -29,8 +32,11 @@ function OffPageMenu({ name, ...props }) {
             <Offcanvas.Title>Offcanvas</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc
+            <Stack gap={3}>
+              {listItems.map(item => (
+                <ListItem key={item._id} {...item} />
+              ))} 
+            </Stack>
           </Offcanvas.Body>
         </Offcanvas>
       </div>
