@@ -15,7 +15,15 @@ export function ListItem({ _id, quantity }: ListItemProps) {
 
   return (
     <Stack direction="horizontal" gap={2} className="saved-events">
-      <img src={item?.flyerFront} style={{width: "125px", height: "75px", objectFit:"cover"}} />
+      <img src={item?.flyerFront} style={{ width: "125px", height: "75px", objectFit: "cover" }} />
+      <div className="saved-events-wrapper">
+        <div>
+          {item?.title} {quantity > 1 && <span>x{quantity}</span>}
+        </div>
+      </div>
+      <div>
+        <button onClick={() => removeFromList(item._id)}>&times;</button>
+      </div>
     </Stack>
   )
 }
