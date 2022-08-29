@@ -1,4 +1,5 @@
 import { useContext, createContext, ReactNode, useState } from "react";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 type EventListContextType = {
   //openList: () => void;
@@ -30,7 +31,7 @@ export function useEventList() {
 export function EventProvider(
   { children }: EventListProviderProps) {
   
-  const [listItems, setListItems] = useState<ListItem[]>([]);
+  const [listItems, setListItems] = useLocalStorage<ListItem[]>("saved-events", []);
   //const [listState, toggleList] = useState(false);
 
   const listQuantity = listItems.reduce((quantity, item) => item.quantity + quantity, 0);
