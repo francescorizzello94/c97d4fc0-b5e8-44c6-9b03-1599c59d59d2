@@ -1,5 +1,4 @@
 import { useContext, createContext, ReactNode, useState } from "react";
-import { OffPageMenu } from "../components/OffPageMenu/OffPageMenu";
 
 type EventListContextType = {
   openList: () => void;
@@ -83,6 +82,7 @@ export function EventProvider(
   }
 
   return (
+    <>
     <EventListContext.Provider value={{
       getEventItemQuantity,
       increaseListQuantity,
@@ -94,7 +94,7 @@ export function EventProvider(
       listQuantity,
     }}>
       {children}
-      <OffPageMenu />
-    </EventListContext.Provider>
+      </EventListContext.Provider>
+    </>
   )
 }
