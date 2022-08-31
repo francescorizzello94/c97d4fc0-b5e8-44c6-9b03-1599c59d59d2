@@ -16,7 +16,7 @@ const options = [
 
 function OffPageMenu({ name, ...props }: EventListProviderProps) {
   const [show, setShow] = useState(false);
-const {listItems} = useEventList();
+  const { listItems } = useEventList();
 
   const handleClose = () => setShow(false);
   const toggleShow = () => setShow((s) => !s);
@@ -35,7 +35,7 @@ const {listItems} = useEventList();
             <Stack gap={3}>
               {listItems.map(item => (
                 <ListItem key={item._id} {...item} />
-              ))} 
+              ))}
             </Stack>
           </Offcanvas.Body>
         </Offcanvas>

@@ -2,8 +2,6 @@ import { useContext, createContext, ReactNode, useState } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
 type EventListContextType = {
-  //openList: () => void;
-  //closeList: () => void;
   getEventItemQuantity: (_id: string) => number;
   increaseListQuantity: (_id: string) => void;
   decreaseListQuantity: (_id: string) => void;
@@ -17,8 +15,9 @@ export type EventListProviderProps = {
   name: string;
 }
 
-type ListItem = {
+export type ListItem = {
   _id: string;
+  title: string;
   quantity: number;
 }
 
@@ -35,10 +34,7 @@ export function EventProvider(
   //const [listState, toggleList] = useState(false);
 
   const listQuantity = listItems.reduce((quantity, item) => item.quantity + quantity, 0);
-
-  //const openList = () => toggleList(true);
-  //const closeList = () => toggleList(false);
-
+  
   function getEventItemQuantity(_id: string) {
     return listItems.find(item =>item._id === _id)?.quantity || 0;
   }
@@ -85,13 +81,11 @@ export function EventProvider(
 
   return (
     <>
-    <EventListContext.Provider value={{
+      <EventListContext.Provider value={{
       getEventItemQuantity,
       increaseListQuantity,
       decreaseListQuantity,
       removeFromList,
-      //openList,
-      //closeList,
       listItems,
       listQuantity,
     }}>

@@ -8,7 +8,10 @@ export function Home() {
       <h1>Events in the City</h1>
       <main>
         <section className="events">
-          {eventData.map(item => (
+          {eventData.sort((x , y) => { 
+            return new Date(y.date).getTime() - new Date(x.date).getTime();
+          })
+            .map(item => (
             <div key={item._id}>
               <EventData {...item} />
             </div>

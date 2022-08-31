@@ -62,7 +62,7 @@ export function EventData(
   }
     : JSONType
 ) {
-  const { getEventItemQuantity, increaseListQuantity, decreaseListQuantity, removeFromList } : any = useEventList();
+  const { getEventItemQuantity, increaseListQuantity, decreaseListQuantity, removeFromList }: any = useEventList();
   const quantity = getEventItemQuantity(_id);
   return (
     <>
@@ -99,7 +99,7 @@ export function EventData(
               :
               <div className="plus-minus-button">
                 <button onClick={() => increaseListQuantity(_id)}>+</button>
-                <span className="quantity-update">{ quantity } tickets added to cart</span>
+                <span className="quantity-update">{quantity} tickets added to cart</span>
                 <button onClick={() => decreaseListQuantity(_id)}>-</button>
                 <div className="remove-button-wrapper">
                   <button className="remove button" onClick={() => removeFromList(_id)}>Remove</button>
@@ -108,7 +108,6 @@ export function EventData(
             }
           </div>
         </Card.Body>
-
       </Card>
     </>
   )
