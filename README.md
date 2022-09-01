@@ -2,7 +2,7 @@
 
 ## Run the App
 
-cd into the appropriate folder <b>/eventsapp</b> and in the terminal execute: <b>npm run dev</b> then click on the localhost port indicated in the terminal.
+clone the repo, cd into the appropriate folder <b>/eventsapp</b> and in the terminal execute: <b>npm run dev</b> then click on the localhost port indicated in the terminal.
 
 ## Features
 
