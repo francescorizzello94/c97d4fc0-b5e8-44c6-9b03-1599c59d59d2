@@ -22,7 +22,7 @@ export function ListItem({ _id, quantity }: ListItemProps) {
         </div>
       </div>
       <div>
-        <button onClick={() => removeFromList(item._id)}>&times;</button>
+        <button className="saved-remove" onClick={() => removeFromList(item._id)}>&times;</button>
       </div>
     </Stack>
   )

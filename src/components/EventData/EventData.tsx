@@ -102,7 +102,7 @@ export function EventData(
                 <span className="quantity-update">{quantity} tickets added to cart</span>
                 <button onClick={() => decreaseListQuantity(_id)}>-</button>
                 <div className="remove-button-wrapper">
-                  <button className="remove button" onClick={() => removeFromList(_id)}>Remove</button>
+                  <button className="remove-button" onClick={() => removeFromList(_id)}>Remove</button>
                 </div>
               </div>
             }

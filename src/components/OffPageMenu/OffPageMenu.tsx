@@ -1,4 +1,4 @@
-import { Offcanvas, Stack } from 'react-bootstrap';
+import { CloseButton, Offcanvas, Stack } from 'react-bootstrap';
 import { useState } from 'react';
 import { EventListProviderProps, useEventList } from '../../context/EventListContext';
 import { ListItem } from '../ListItem/ListItem';
@@ -27,10 +27,11 @@ function OffPageMenu({ name, ...props }: EventListProviderProps) {
         {name}
       </button>
       <div className="offcanvas">
-        <Offcanvas show={show} onHide={handleClose} {...props} placement="end">
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        <Offcanvas className="offcanvas-container" show={show} onHide={handleClose} {...props} placement="end" style={{background: 'black'}}>
+          <Offcanvas.Header>
+            <Offcanvas.Title style={{background: 'black', color: 'white'}} />
           </Offcanvas.Header>
+          <CloseButton className="up-button" onClick={handleClose} style={{background: 'purple', display: 'flex', flexDirection: 'row-reverse'}}>Back to top</CloseButton>
           <Offcanvas.Body>
             <Stack gap={3}>
               {listItems.map(item => (

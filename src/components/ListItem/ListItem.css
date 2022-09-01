@@ -1,5 +1,18 @@
 .saved-events {
+  color: white;
   display: flex;
   align-items: center;
   background-color: darkviolet;
+}
+
+.saved-events-wrapper {
+  color: rgb(2, 1, 0);
+  margin-left: 0.7rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.saved-remove {
+  background-color: red;
+  margin-left: 0.5rem;
 }

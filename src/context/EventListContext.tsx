@@ -1,4 +1,4 @@
-import { useContext, createContext, ReactNode, useState } from "react";
+import { useContext, createContext, ReactNode } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
 type EventListContextType = {
