@@ -28,7 +28,3 @@ Maps button takes you to the event location in a separate window
 Use of utility functions and modular components
 </li>
 </ul>
-
-## Missing features
-
-Due to time constraints I was not able to implement the search bar functionality as well as the styling of the date to persist at the top of the page upon scrolldown.
